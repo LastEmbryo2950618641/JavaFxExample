@@ -1,5 +1,4 @@
-package showTime;
-
+package showDateTime;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
