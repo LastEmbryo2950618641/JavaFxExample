@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Line endX="50.0" endY="50.0" strokeWidth="10.0" />
+      <Rectangle height="55.0" layoutX="69.0" layoutY="10.0" stroke="BLACK" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="47.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.5333333333333333" startY="0.49047619047619045">
+               <stops>
+                  <Stop color="#0400ff" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Rectangle arcHeight="50.0" arcWidth="50.0" fill="DODGERBLUE" height="66.0" layoutX="122.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="10.0" width="62.0" />
+      <Circle layoutX="226.0" layoutY="43.0" radius="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+         <fill>
+            <RadialGradient centerX="0.33333333333333337" centerY="0.35238095238095235" radius="0.5">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#8d8d8d" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill></Circle>
+      <Ellipse layoutX="326.0" layoutY="43.0" radiusX="60.0" radiusY="28.0" stroke="BLACK" strokeType="INSIDE">
+         <fill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="#b4b2ff" />
+                  <Stop color="RED" offset="0.5286195286195287" />
+                  <Stop color="#02ff00" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </fill></Ellipse>
+      <Circle fill="#1f93ff" layoutX="52.0" layoutY="115.0" radius="36.0" stroke="#fcfcfc" strokeType="INSIDE">
+         <effect>
+            <DropShadow height="56.59" offsetX="5.0" offsetY="5.0" radius="30.017500000000002" spread="0.07" width="65.48" />
+         </effect>
+      </Circle>
+      <Circle fill="WHITE" layoutX="52.0" layoutY="115.0" radius="23.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="RED" layoutX="141.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="我爱Java" wrappingWidth="144.31640625">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Text>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
